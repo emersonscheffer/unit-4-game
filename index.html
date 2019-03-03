@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="shortcut icon" type="image/png" href="/favicon.png" />
+    <link rel="shortcut icon" type="image/png" href="http://example.com/favicon.png" />
+
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+
+
+    <title>unit 4 game</title>
+</head>
+
+<body>
+    <div id="wrapper">
+
+        <h1>CrystalsCollector!</h1>
+        <article>
+            <p>You will be given a random number at the star of the game.</p>
+            <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your
+                total score.</p>
+            <p>You win the game by matching your total score to random number, you lose the game if your total score
+                goes
+                above the random number.</p>
+            <p>The value of each crystal is hidden from you until you click on it.</p>
+            <p>Each time when the game starts, the game will change the values of each crystal.</p>
+        </article>
+
+        <section>
+            <div id="randomNumber"></div>
+            <div id="scoreBoard"></div>
+            <div id="crystalsBtn"></div>
+            <div id="beforeSumNumber">
+                <h2>Your total score is:</h2>
+            </div>
+            <div id="sumNumber"></div>
+        </section>
+
+    </div>
+    <!-- wrapper -->
+
+    <script src="./assets/js/game.js"></script>
+
+</body>
+
+</html>
