@@ -116,4 +116,12 @@ section {
     background-color: #72c072;
     height: 100px;
     margin-bottom: 30px;
+    display: grid;
+}
+
+#sum {
+    justify-self: center;
+    align-self: center;
+    font-weight: bold;
+    font-size: 34px;
 }
